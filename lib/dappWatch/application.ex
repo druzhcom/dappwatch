@@ -18,7 +18,7 @@ defmodule DappWatch.Application do
       DappWatchWeb.Endpoint,
       # Start a worker by calling: DappWatch.Worker.start_link(arg)
       # {DappWatch.Worker, arg}
-      # DappWatch.Eth.Scanner
+      DappWatch.Eth.Scanner
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
