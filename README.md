@@ -26,6 +26,12 @@ sudo systemctl enable lighthousebeacon.service
 sudo journalctl -f -u lighthousebeacon.service -o cat | ccze -A
 ```
 
+## Docker
+
+```
+docker run -t -p 8080:8545 goerli
+docker run -it goerli /bin/bash
+```
 
 ## Ecto
 
